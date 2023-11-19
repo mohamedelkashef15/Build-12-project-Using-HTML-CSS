@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#contact {
+  background: url("./images/bg-intro-desktop.png") var(--red);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+#contact .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  min-height: 100vh;
+}
+
+#contact .row .col-1 {
+  color: #fff;
+}
+
+#contact .row .col-1 h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+#contact .row .col-2 .trial {
+  background-color: var(--blue);
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+#contact .row .col-2 #form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+#contact .row .col-2 #form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border: 1px solid var(--grayish-blue);
+  border-radius: 5px;
+}
+
+#contact .row .col-2 #form input:focus {
+  outline: 1px solid var(--dark-blue);
+}
+
+#contact .row .col-2 #form button[type="submit"] {
+  width: 100%;
+  padding: 15px 0;
+  background-color: var(--green);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact .row .col-2 #form p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--grayish-blue);
+}
+
+#contact .row .col-2 #form p a {
+  text-decoration: none;
+  color: var(--red);
+  font-weight: 600;
+}
+
+/* Responsive */
+/* Tablet */
+@media (max-width: 900px) {
+  #contact .row {
+    column-gap: 1rem;
+  }
+
+  #contact .row .col-1 h1 {
+    font-size: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  #contact {
+    text-align: center;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  #contact .row {
+    grid-template-columns: 1fr;
+  }
+}
