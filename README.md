@@ -2,6 +2,8 @@
 
 This is the main repository for all projects in the course.
 
+![Desgin Preview for Course]("./design/course-img.png")
+
 - [Course Link](https://www.udemy.com/course/draft/5280624/?referralCode=F26190C15C0CDE918CF8)
 
 |  #  | Project Name                     | Live Demo                                                                          |
