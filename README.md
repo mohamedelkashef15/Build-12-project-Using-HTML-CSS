@@ -8,6 +8,8 @@ This is the main repository for all projects in the course.
 
 [Click Here](https://www.udemy.com/course/draft/5280624/?referralCode=F26190C15C0CDE918CF8)
 
+Then use coupon discount: <b style="color:#20C997">ELKASHEF</b>
+
 ### Watch Websites Live 👇
 
 |  #  | Project Name                     | Live Demo                                                                          |
